@@ -161,7 +161,7 @@ def r_ply(type_):
                 InlineKeyboardButton("⏭", "skip"),
             ],
             [
-                InlineKeyboardButton("Playlist 📖", "playlist"),
+                InlineKeyboardButton("📬Channel ", url=f"https://t.me/Vylanesu")
             ],
             [InlineKeyboardButton("❌ Close", "cls")],
         ]
@@ -378,7 +378,7 @@ async def m_cb(chat, b, cb):
                     InlineKeyboardButton("⏭", "skip"),
                 ],
                 [
-                    InlineKeyboardButton("Playlist 📖", "playlist"),
+                    InlineKeyboardButton("📬Channel ", url=f"https://t.me/Vylanesu")
                 ],
                 [InlineKeyboardButton("❌ Close", "cls")],
             ]
@@ -531,7 +531,7 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📖 Playlist", callback_data="playlist"),
+                    InlineKeyboardButton("Channel 📬 ", url=f"https://t.me/Vylanesu")
                     InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
                 ],
                 [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
@@ -590,7 +590,7 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📖 Playlist", callback_data="playlist"),
+                    InlineKeyboardButton("Channel 📬", url=f"https://t.me/Vylanesu")
                     InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
                 ],
                 [
@@ -701,7 +701,7 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("📖 Playlist", callback_data="playlist"),
+                        InlineKeyboardButton("Channel 📬 ", url=f"https://t.me/Vylanesu")
                         InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
                     ],
                     [
@@ -869,7 +869,7 @@ async def ytplay(_, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("📖 Playlist", callback_data="playlist"),
+                InlineKeyboardButton("Channel 📬 ", url=f"https://t.me/Vylanesu
                 InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
             ],
             [
@@ -989,7 +989,7 @@ async def lol_cb(b, cb):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("📖 Playlist", callback_data="playlist"),
+                InlineKeyboardButton("Channel 📬 ", url=f"https://t.me/Vylanesu
                 InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
             ],
             [
